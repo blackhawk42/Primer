@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x1261720" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x11c1730" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7f3bc018bf10"/>
-  <item nodeId="node-0x1261720">
+  <activeNode nodeId="node-0x11c1730"/>
+  <item nodeId="node-0x11c1730">
     <command xml:space="preserve">- inicio -</command>
     <result xml:space="preserve">
 
 
 Primer
 An Interactive Fiction by Daniel Chávez
-Release 1 / Serial number 160304 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 160306 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Middle of Nowhere
-You can see a tall Saguaro here.
+The tire tracks from the south stop abruptly here, but where the hell are you? The desert sand and clumps of pale sagebrush are all your dimming headlights pick out before barely reaching a concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall Saguaro; whiffs of evaporating gasoline linger in the chill air.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -21,14 +23,17 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x12618a0"/>
-      <child nodeId="node-0x1261d20"/>
-      <child nodeId="node-0x7f3bbc0f8ac0"/>
-      <child nodeId="node-0x7f3bc811beb0"/>
-      <child nodeId="node-0x7f3bc811bd30"/>
+      <child nodeId="node-0x11c18b0"/>
+      <child nodeId="node-0x11c1a30"/>
+      <child nodeId="node-0x1320d10"/>
+      <child nodeId="node-0x13821c0"/>
+      <child nodeId="node-0x1382dc0"/>
+      <child nodeId="node-0x1382f40"/>
+      <child nodeId="node-0x13ada40"/>
+      <child nodeId="node-0x13adbc0"/>
     </children>
   </item>
-  <item nodeId="node-0x12618a0">
+  <item nodeId="node-0x11c18b0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Crumbling Concrete
@@ -40,23 +45,25 @@ Crumbling Concrete
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1261d20">
+  <item nodeId="node-0x11c1a30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Crumbling Concrete
+The building is nondescript. The windows include a pane of cracked glass, a dust-covered window and a tiny frosted window.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
+    <played>NO</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1261ea0"/>
-      <child nodeId="node-0x7f3bc018b190"/>
+      <child nodeId="node-0x11c1bb0"/>
+      <child nodeId="node-0x12ce790"/>
+      <child nodeId="node-0x12f6790"/>
     </children>
   </item>
-  <item nodeId="node-0x1261ea0">
+  <item nodeId="node-0x11c1bb0">
     <command xml:space="preserve">m</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -67,10 +74,10 @@ Crumbling Concrete
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f81c0"/>
+      <child nodeId="node-0x11c1d30"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f81c0">
+  <item nodeId="node-0x11c1d30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Base of the Tower
@@ -83,10 +90,10 @@ You can see a tumbleweed and a rusty can here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f8340"/>
+      <child nodeId="node-0x11c1eb0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f8340">
+  <item nodeId="node-0x11c1eb0">
     <command xml:space="preserve">take tin</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -97,10 +104,10 @@ You can see a tumbleweed and a rusty can here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f84c0"/>
+      <child nodeId="node-0x12ce190"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f84c0">
+  <item nodeId="node-0x12ce190">
     <command xml:space="preserve">take can</command>
     <result xml:space="preserve">Taken.
 
@@ -111,10 +118,10 @@ You can see a tumbleweed and a rusty can here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f8640"/>
+      <child nodeId="node-0x12ce310"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f8640">
+  <item nodeId="node-0x12ce310">
     <command xml:space="preserve">drop can</command>
     <result xml:space="preserve">Dropped.
 
@@ -125,10 +132,10 @@ You can see a tumbleweed and a rusty can here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f87c0"/>
+      <child nodeId="node-0x12ce490"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f87c0">
+  <item nodeId="node-0x12ce490">
     <command xml:space="preserve">take rusty</command>
     <result xml:space="preserve">Taken.
 
@@ -139,10 +146,10 @@ You can see a tumbleweed and a rusty can here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f8940"/>
+      <child nodeId="node-0x12ce610"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f8940">
+  <item nodeId="node-0x12ce610">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a rusty can
@@ -154,22 +161,22 @@ You can see a tumbleweed and a rusty can here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f3bc018b190">
+  <item nodeId="node-0x12ce790">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">
 Staging Area
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018b310"/>
+      <child nodeId="node-0x12ce910"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018b310">
+  <item nodeId="node-0x12ce910">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Foreman&apos;s Office
@@ -177,43 +184,43 @@ You can see a half-collapsed desk (on which is a rusted key) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018b490"/>
+      <child nodeId="node-0x12cea90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018b490">
+  <item nodeId="node-0x12cea90">
     <command xml:space="preserve">take table</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018b610"/>
+      <child nodeId="node-0x12cec10"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018b610">
+  <item nodeId="node-0x12cec10">
     <command xml:space="preserve">take desk</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018b790"/>
+      <child nodeId="node-0x12ced90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018b790">
+  <item nodeId="node-0x12ced90">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a half-collapsed desk
@@ -224,72 +231,72 @@ You can see a half-collapsed desk (on which is a rusted key) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018b910"/>
+      <child nodeId="node-0x12cef10"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018b910">
+  <item nodeId="node-0x12cef10">
     <command xml:space="preserve">drop desk</command>
     <result xml:space="preserve">Dropped.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018ba90"/>
+      <child nodeId="node-0x12f6190"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018ba90">
+  <item nodeId="node-0x12f6190">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018bc10"/>
+      <child nodeId="node-0x12f6310"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018bc10">
+  <item nodeId="node-0x12f6310">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Foreman&apos;s Office
 You can see a half-collapsed desk (on which is a rusted key) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018bd90"/>
+      <child nodeId="node-0x12f6490"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018bd90">
+  <item nodeId="node-0x12f6490">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc018bf10"/>
+      <child nodeId="node-0x12f6610"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc018bf10">
+  <item nodeId="node-0x12f6610">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a rusted key
@@ -299,12 +306,212 @@ You can see a half-collapsed desk (on which is a rusted key) here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f3bbc0f8ac0">
+  <item nodeId="node-0x12f6790">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Base of the Tower
+Behind the building a steel girder rises from the sand, one of three legs of the huge electrical tower looming like some gargantuan spider into blackness above you. A tumbleweed drifts lazily against the rusted metal among scrawny weeds and bits of trash. The desert stretches in all directions except back south towards the building.
+
+You can see a rusty can here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x12f6910"/>
+      <child nodeId="node-0x1320710"/>
+      <child nodeId="node-0x1320890"/>
+      <child nodeId="node-0x1320a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x12f6910">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Crumbling Concrete
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x12f6a90"/>
+      <child nodeId="node-0x1320590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x12f6a90">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">
+Staging Area
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x12f6c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x12f6c10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Foreman&apos;s Office
+You can see a half-collapsed desk (on which is a rusted key) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x12f6d90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x12f6d90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x12f6f10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x12f6f10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Staging Area
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1320110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1320110">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Break Room
+You can see a wire mesh cage (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1320290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1320290">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">You open the wire mesh cage, revealing an emergency blanket.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1320410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1320410">
+    <command xml:space="preserve">get blanket</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1320590">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Middle of Nowhere
+You can see a tall Saguaro here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1320710">
+    <command xml:space="preserve">x girder</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1320890">
+    <command xml:space="preserve">take tumbleweed</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1320a10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Against the Fence
+You can see a large, rusty fence. It surrounds the tower vicinity as if involving it. Even if old, it seems sturdy, and it&apos;s imposing size and spiky ends tell you it wouldn&apos;t be wise trying to climb it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1320b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1320b90">
+    <command xml:space="preserve">x fence</command>
+    <result xml:space="preserve">You look in awe at the giant fence. It&apos;s rust and wear tells you of the many years it has standed against the merciless desert and won, so far, at least. It curves towards you, part menacely, as if warning you to not try to climb it, part reassuringly, as if telling you you are safe within it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1320d10">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">(the tall Saguaro)
 You see nothing special about the tall Saguaro.
@@ -316,10 +523,10 @@ You see nothing special about the tall Saguaro.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f8c40"/>
+      <child nodeId="node-0x1320e90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f8c40">
+  <item nodeId="node-0x1320e90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Backtracking
@@ -331,10 +538,10 @@ Backtracking
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f8dc0"/>
+      <child nodeId="node-0x133c150"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f8dc0">
+  <item nodeId="node-0x133c150">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Middle of Nowhere
@@ -347,10 +554,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bbc0f8f40"/>
+      <child nodeId="node-0x133c2d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bbc0f8f40">
+  <item nodeId="node-0x133c2d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Crumbling Concrete
@@ -362,10 +569,10 @@ Crumbling Concrete
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7100"/>
+      <child nodeId="node-0x133c450"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7100">
+  <item nodeId="node-0x133c450">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Base of the Tower
@@ -378,10 +585,10 @@ You can see a tumbleweed and a rusty can here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7280"/>
+      <child nodeId="node-0x133c5d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7280">
+  <item nodeId="node-0x133c5d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Crumbling Concrete
@@ -393,10 +600,10 @@ Crumbling Concrete
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7400"/>
+      <child nodeId="node-0x133c750"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7400">
+  <item nodeId="node-0x133c750">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -407,10 +614,10 @@ Crumbling Concrete
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7580"/>
+      <child nodeId="node-0x133c8d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7580">
+  <item nodeId="node-0x133c8d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Middle of Nowhere
@@ -423,10 +630,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7700"/>
+      <child nodeId="node-0x133ca50"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7700">
+  <item nodeId="node-0x133ca50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -437,10 +644,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7880"/>
+      <child nodeId="node-0x133cbd0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7880">
+  <item nodeId="node-0x133cbd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -451,10 +658,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7a00"/>
+      <child nodeId="node-0x133cd50"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7a00">
+  <item nodeId="node-0x133cd50">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -465,10 +672,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7b80"/>
+      <child nodeId="node-0x133ced0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7b80">
+  <item nodeId="node-0x133ced0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -479,10 +686,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7d00"/>
+      <child nodeId="node-0x1367190"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7d00">
+  <item nodeId="node-0x1367190">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -493,10 +700,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc80e7e80"/>
+      <child nodeId="node-0x1367310"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc80e7e80">
+  <item nodeId="node-0x1367310">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -507,10 +714,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811b130"/>
+      <child nodeId="node-0x1367490"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811b130">
+  <item nodeId="node-0x1367490">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -521,10 +728,10 @@ You can see a tall Saguaro here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811b2b0"/>
+      <child nodeId="node-0x1367610"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811b2b0">
+  <item nodeId="node-0x1367610">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Crumbling Concrete
@@ -536,10 +743,10 @@ Crumbling Concrete
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811b430"/>
+      <child nodeId="node-0x1367790"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811b430">
+  <item nodeId="node-0x1367790">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Weed-strewn Rust
@@ -551,10 +758,10 @@ Weed-strewn Rust
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811b5b0"/>
+      <child nodeId="node-0x1367910"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811b5b0">
+  <item nodeId="node-0x1367910">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Weed-strewn Rust
 
@@ -565,10 +772,10 @@ Weed-strewn Rust
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811b730"/>
+      <child nodeId="node-0x1367a90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811b730">
+  <item nodeId="node-0x1367a90">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -579,10 +786,10 @@ Weed-strewn Rust
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811b8b0"/>
+      <child nodeId="node-0x1367c10"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811b8b0">
+  <item nodeId="node-0x1367c10">
     <command xml:space="preserve">x yellowing</command>
     <result xml:space="preserve">You see nothing special about the yellowing weeds.
 
@@ -593,10 +800,10 @@ Weed-strewn Rust
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811ba30"/>
+      <child nodeId="node-0x1367d90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811ba30">
+  <item nodeId="node-0x1367d90">
     <command xml:space="preserve">x weeds</command>
     <result xml:space="preserve">You see nothing special about the yellowing weeds.
 
@@ -607,10 +814,10 @@ Weed-strewn Rust
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f3bc811bbb0"/>
+      <child nodeId="node-0x1367f10"/>
     </children>
   </item>
-  <item nodeId="node-0x7f3bc811bbb0">
+  <item nodeId="node-0x1367f10">
     <command xml:space="preserve">take weeds</command>
     <result xml:space="preserve">They&apos;re fixed in place.
 
@@ -621,9 +828,112 @@ Weed-strewn Rust
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f3bc811beb0">
+  <item nodeId="node-0x13821c0">
     <command xml:space="preserve">take cactus</command>
     <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1382340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1382340">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Crumbling Concrete
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13824c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13824c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Base of the Tower
+You can see a tumbleweed and a rusty can here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1382640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1382640">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13827c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13827c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Crumbling Concrete
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1382940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1382940">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Weed-strewn Rust
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1382ac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1382ac0">
+    <command xml:space="preserve">take weed</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1382c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1382c40">
+    <command xml:space="preserve">take weeds</command>
+    <result xml:space="preserve">They&apos;re fixed in place.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -632,12 +942,222 @@ Weed-strewn Rust
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f3bc811bd30">
+  <item nodeId="node-0x1382dc0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a pack of cigarettes
   a lighter
   a denim jacket (being worn)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1382f40">
+    <command xml:space="preserve">tree</command>
+    <result xml:space="preserve">compass (589730) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(darkness object) (589762) 
+(Inform Parser) (589794) 
+(Inform Library) (589826) 
+(property_numberspace_forcer) (589858) 
+(ValuePropertyHolder_43) (589922) 
+(ValuePropertyHolder_47) (589954) 
+last day of school (591138) 
+Staying the night (591170) 
+canned oranges (591202) 
+roll of duct tape (591234) 
+gas can (591266) 
+Fixing the truck (591298) 
+Middle of Nowhere (591330) 
+  yourself
+    a pack of cigarettes
+    a lighter
+    a denim jacket (being worn)
+  a tall Saguaro
+  a withered cactus
+Backtracking (591426) 
+Crumbling Concrete (591458) 
+Base of the Tower (591490) 
+  a tumbleweed
+  a rusty can
+  a huge electrical tower
+Weed-strewn Rust (591618) 
+  some yellowing weeds
+Roof (591682) 
+Staging Area (591714) 
+  a pane of cracked glass
+Foreman&apos;s Office (591778) 
+  a half-collapsed desk
+    a rusted key
+  a dust-covered window
+Break Room (591906) 
+  a wire mesh cage (closed)
+    an emergency blanket
+  a tiny frosted window
+Storage Room (592034) 
+Tower Vicinity (592066) 
+  Around the Tower
+  Office Interior
+Brake Room (592162) 
+  some scattered newspapers
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13ad140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13ad140">
+    <command xml:space="preserve">tree Break Room</command>
+    <result xml:space="preserve">Break Room (591906) 
+  a wire mesh cage (closed)
+    an emergency blanket
+  a tiny frosted window
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13ad2c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13ad2c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13ad440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13ad440">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13ad5c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13ad5c0">
+    <command xml:space="preserve">showme</command>
+    <result xml:space="preserve">Middle of Nowhere - room
+    yourself - person
+        pack of cigarettes
+        lighter
+        denim jacket (worn)
+    tall Saguaro
+    withered cactus - plant
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13ad740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13ad740">
+    <command xml:space="preserve">showme tumbleweed</command>
+    <result xml:space="preserve">tumbleweed - plant
+location: in Base of the Tower
+singular-named, improper-named; unlit, inedible, portable; alive
+list grouping key: none
+printed name: &quot;tumbleweed&quot;
+printed plural name: &quot;plants&quot;
+indefinite article: none
+description: none
+initial appearance: none
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13ad8c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13ad8c0">
+    <command xml:space="preserve">relations</command>
+    <result xml:space="preserve">Suggestion relates various things to one memory:
+  The tumbleweed  &gt;=&gt;  the last day of school
+Requirement relates one plan to various things:
+  Staying the night  &gt;=&gt;  the canned oranges
+  Staying the night  &gt;=&gt;  the emergency blanket
+  Fixing the truck  &gt;=&gt;  the roll of duct tape
+  Fixing the truck  &gt;=&gt;  the gas can
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x13ada40">
+    <command xml:space="preserve">take headlights</command>
+    <result xml:space="preserve">Those seem to be a part of the pickup truck.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x13adbc0">
+    <command xml:space="preserve">look pickup truck</command>
+    <result xml:space="preserve">The pickup truck is empty.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x13add40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13add40">
+    <command xml:space="preserve">x truck</command>
+    <result xml:space="preserve">The pickup truck is empty.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
